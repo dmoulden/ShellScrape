@@ -6,6 +6,12 @@ Flags: -f    - No tor. f stands for fast.
 
 Output stored in sitesWithShells.txt
 
+ShellScrape is a tool that's designed to help digital forensic investigators find web shells on compromised web servers with permission from the server owners.
+It can just as easily be used to scan your own web server.
+
+THIS TOOL WAS BUILT WITH GOOD INTENTIONS. I'M NOT RESPONSIBLE FOR ANYTHING A MALICIOUS USER DOES. PLEASE USE THIS TOOL RESPONSIBLY.
+I've tried to limit the possibly of someone using this with the wrong intentions by removing all the shell names and directories from the relevant files. At least theres some extra work involved then.
+
 Requirements:
 
 	* PHP 5 (sudo apt-get install php5)
